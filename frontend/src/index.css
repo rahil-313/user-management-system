@@ -69,3 +69,8 @@ tr:nth-child(even) {
     flex-direction: column;
   }
 }
+
+body {
+  margin: 0;
+  padding-top: 70px; 
+}

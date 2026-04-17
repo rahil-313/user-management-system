@@ -6,18 +6,20 @@ const Navbar = () => {
   const { user, logout } = useContext(AuthContext);
 
   return (
-    <div style={{
-      display: "flex",
-      justifyContent: "space-between",
-      padding: "15px",
-      background: "#28153e",
-      color: "white",
-        flexWrap: "wrap",
-      position: "fixed",
-      width: "100%",
-      marginTop: "-3px",
-      height:"45px"
-    }}>
+<div
+  style={{
+    display: "flex",
+    justifyContent: "space-between",
+    padding: "15px",
+    background: "#1f2937",
+    color: "white",
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100%",
+    zIndex: 1000
+  }}
+>
       <div>
         <strong>Admin Panel</strong>
       </div>
